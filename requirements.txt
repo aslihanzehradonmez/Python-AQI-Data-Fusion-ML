@@ -1,0 +1,6 @@
+# Python-AQI-Data-Fusion-ML Project Dependencies
+pandas
+numpy
+scikit-learn
+openpyxl
+matplotlib

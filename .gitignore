@@ -1,0 +1,59 @@
+# --- Build Artifacts (C++ & Generic) ---
+/build/
+/bin/
+/out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# --- IDE/Platform Specific Files ---
+# Visual Studio / CMake
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.suo
+*.user
+*.ilk
+
+# VS Code specific files
+.vscode/
+
+# CLion/JetBrains IDEs
+.idea/
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+venv/
+.venv/
+
+# --- Data, Notebooks, and Large Files ---
+/data/              
+*.xlsx              
+*.csv
+*.tsv
+*.dat
+*.npy              
+*.npz
+*.zip
+*.rar
+*.tar.gz
+
+# --- Machine Learning and Model Artifacts ---
+# Model Weights and Serialization
+*.h5                
+*.hdf5
+*.pkl                
+*.joblib
+/models/             
+/checkpoints/
+
+# --- Jupyter Notebook Artifacts ---
+.ipynb_checkpoints/
